@@ -41,7 +41,7 @@ const items = computed<NavigationMenuItem[]>(() => [
     <UNavigationMenu :items="items" />
 
     <template #right>
-      <UColorModeButton />
+      <UColorModeButton class="cursor-pointer" />
       <UButton to="#contact">Contactar</UButton>
     </template>
 
