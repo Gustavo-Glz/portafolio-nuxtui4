@@ -1,17 +1,15 @@
 <template>
   <section class="mt-28 flex flex-col items-center justify-center gap-8">
     <span
-      class="bg-primary flex size-32 items-center justify-center rounded-full text-4xl font-bold text-white"
+      class="bg-primary text-highlighted flex size-32 items-center justify-center rounded-full text-4xl font-bold"
     >
       GM
     </span>
-    <h1 class="text-4xl font-bold lg:text-5xl">
+    <h1 class="text-highlighted text-4xl font-bold md:text-5xl lg:text-6xl">
       Hola, soy <span class="text-primary">Gustavo González</span>
     </h1>
-    <h2 class="text-2xl font-semibold text-slate-500 lg:text-3xl dark:text-slate-400">
-      Desarrollador Full Stack
-    </h2>
-    <p class="w-2/3 text-center text-lg text-slate-500 dark:text-slate-400">
+    <h2 class="text-muted text-2xl md:text-3xl">Desarrollador Full Stack</h2>
+    <p class="text-muted text-center md:w-2/3 md:text-lg">
       Creo soluciones digitales innovadoras y escalables usando tecnologías modernas. Especializado
       en React, Node.js y arquitectura en la nube con +5 años de experiencia.
     </p>
@@ -38,6 +36,7 @@
     </div>
     <div class="mt-10 flex gap-10">
       <UButton
+        class="text-muted"
         to="https://github.com/Gustavo-Glz"
         icon="line-md:github"
         size="xl"
@@ -47,6 +46,7 @@
         aria-label="GitHub"
       ></UButton>
       <UButton
+        class="text-muted"
         to="https://www.linkedin.com/in/gustavo-gonz%C3%A1lez-montalvo-7aa92a228/"
         icon="line-md:linkedin"
         size="xl"
@@ -56,6 +56,7 @@
         aria-label="LinkedIn"
       ></UButton>
       <UButton
+        class="text-muted"
         to="mailto:gustavo.gonzalez.montalvo@gmail.com"
         icon="ic:outline-email"
         size="xl"
@@ -65,6 +66,6 @@
         aria-label="Email"
       ></UButton>
     </div>
-    <UIcon class="mt-10 size-7 animate-bounce" name="line-md:arrow-down" />
+    <UIcon class="text-muted mt-10 size-7 animate-bounce" name="line-md:arrow-down" />
   </section>
 </template>
