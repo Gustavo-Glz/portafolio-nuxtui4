@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { pricingPlans } from '#build/ui'
-
 const items = ref([
   {
     title: 'Clean Code',
