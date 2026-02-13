@@ -32,12 +32,12 @@ const items = ref([
 
 const technologies = ref([
   { name: 'TypeScript', icon: 'i-simple-icons-typescript' },
-  { name: 'Node.js', icon: 'i-simple-icons-nodejs' },
+  { name: 'Node.js', icon: 'akar-icons:node-fill' },
   { name: 'React', icon: 'i-simple-icons-react' },
   { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
-  { name: 'Nuxt.js', icon: 'i-simple-icons-nuxtdotjs' },
+  { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs' },
   { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss' },
-  { name: '.NET', icon: 'i-simple-icons-dotNET' }
+  { name: '.NET', icon: 'simple-icons:dotnet' }
 ])
 
 onMounted(() => {

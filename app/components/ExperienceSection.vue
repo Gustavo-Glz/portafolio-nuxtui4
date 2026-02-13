@@ -8,10 +8,10 @@ const experiences = ref([
       'Desarrollo de soluciones web personalizadas para clientes diversos. Gestión completa del ciclo de vida del proyecto desde el diseño hasta el deployment.',
     technologies: [
       { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
-      { name: 'Nuxt.js', icon: 'i-simple-icons-nuxtdotjs' },
-      { name: 'React.js', icon: 'i-simple-icons-react' },
-      { name: '.NET', icon: 'i-simple-icons-dotNET' },
-      { name: 'Node.js', icon: 'i-simple-icons-nodejs' },
+      { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs' },
+      { name: 'React', icon: 'i-simple-icons-react' },
+      { name: '.NET', icon: 'simple-icons:dotnet' },
+      { name: 'Node.js', icon: 'akar-icons:node-fill' },
       { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss' }
     ],
     achievements: [
@@ -27,7 +27,7 @@ const experiences = ref([
     description:
       'Diseñé y desarrollé un servicio WCF para el módulo de estado de cuenta utilizando Arquitectura Limpia en C#, mejorando la mantenibilidad del código. Implementé interfaces dinámicas en ASP.NET integrando JavaScript, jQuery y Bootstrap para una mejor interacción del usuario. Optimicé la gestión de datos mediante el uso de SQL Server y procedimientos almacenados (Store Procedures) para asegurar la integridad y rapidez de las consultas.',
     technologies: [
-      { name: '.NET', icon: 'i-simple-icons-dotNET' },
+      { name: '.NET', icon: 'simple-icons:dotnet' },
       { name: 'JavaScript', icon: 'i-simple-icons-javascript' },
       { name: 'jQuery', icon: 'i-simple-icons-jquery' },
       { name: 'Bootstrap', icon: 'i-simple-icons-bootstrap' },

@@ -95,7 +95,7 @@ onMounted(() => {
             loading="lazy"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-t from-zinc-900/80 via-zinc-900/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            class="absolute inset-0 bg-linear-to-t from-zinc-900/80 via-zinc-900/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           ></div>
           <div
             class="absolute right-0 bottom-0 left-0 flex translate-y-full justify-center gap-3 p-4 transition-transform duration-300 group-hover:translate-y-0"

@@ -13,7 +13,7 @@ const education = ref([
       'Participación en hackathons universitarios'
     ],
     technologies: [
-      { name: '.NET', icon: 'i-simple-icons-dotNET' },
+      { name: '.NET', icon: 'simple-icons:dotnet' },
       { name: 'C#', icon: 'i-simple-icons-csharp' },
       { name: 'HTML', icon: 'i-simple-icons-html5' },
       { name: 'CSS', icon: 'i-simple-icons-css3' },
@@ -35,8 +35,9 @@ const continuousLearning = ref([
     certificate: true,
     technologies: [
       { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
-      { name: 'Pinia', icon: 'i-heroicons-circle-stack' },
-      { name: 'Vitest', icon: 'i-simple-icons-vitest' }
+      { name: 'Vue Router', icon: 'i-simple-icons-vuedotjs' },
+      { name: 'Pinia', icon: 'simple-icons:pinia' },
+      { name: 'Vitest', icon: 'devicon-plain:vitest' }
     ]
   },
   {
@@ -48,7 +49,7 @@ const continuousLearning = ref([
     hours: '+6 horas',
     certificate: true,
     technologies: [
-      { name: '.NET', icon: 'i-simple-icons-dotNET' },
+      { name: '.NET', icon: 'simple-icons:dotnet' },
       { name: 'C#', icon: 'i-simple-icons-csharp' }
     ]
   },
@@ -63,8 +64,10 @@ const continuousLearning = ref([
     certificate: true,
     technologies: [
       { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
-      { name: 'Pinia', icon: 'i-heroicons-circle-stack' },
-      { name: 'Firebase', icon: 'i-simple-icons-firebase' }
+      { name: 'Vue Router', icon: 'i-simple-icons-vuedotjs' },
+      { name: 'Pinia', icon: 'simple-icons:pinia' },
+      { name: 'Firebase', icon: 'i-simple-icons-firebase' },
+      { name: 'Vuetify', icon: 'devicon-plain:vuetify' }
     ]
   },
   {
@@ -129,7 +132,7 @@ onMounted(() => {
         class="scroll-reveal card-hover group relative overflow-hidden rounded-2xl bg-white p-6 shadow-lg shadow-zinc-200/50 dark:bg-zinc-900 dark:shadow-zinc-800/50"
       >
         <div
-          class="absolute inset-0 -translate-x-full bg-gradient-to-r from-blue-50 to-transparent opacity-0 transition-all duration-500 group-hover:translate-x-0 dark:from-blue-900/20"
+          class="absolute inset-0 -translate-x-full bg-linear-to-r from-blue-50 to-transparent opacity-0 transition-all duration-500 group-hover:translate-x-0 dark:from-blue-900/20"
         ></div>
 
         <div class="relative z-10">
@@ -206,7 +209,7 @@ onMounted(() => {
           :style="{ transitionDelay: `${index * 100}ms` }"
         >
           <div
-            class="absolute inset-0 -translate-x-full bg-gradient-to-r from-blue-50 to-transparent opacity-0 transition-all duration-500 group-hover:translate-x-0 dark:from-blue-900/20"
+            class="absolute inset-0 -translate-x-full bg-linear-to-r from-blue-50 to-transparent opacity-0 transition-all duration-500 group-hover:translate-x-0 dark:from-blue-900/20"
           ></div>
 
           <div class="relative z-10">
@@ -285,7 +288,7 @@ onMounted(() => {
         :style="{ transitionDelay: `${index * 100}ms` }"
       >
         <div
-          class="absolute inset-0 bg-gradient-to-br from-blue-50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:from-blue-900/20"
+          class="absolute inset-0 bg-linear-to-br from-blue-50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:from-blue-900/20"
         ></div>
 
         <div class="relative z-10">

@@ -7,11 +7,11 @@ const skills = ref([
     bgGradient: 'group-hover:from-blue-500/10 group-hover:to-cyan-500/10',
     technologies: [
       { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
-      { name: 'Nuxt.js', icon: 'i-simple-icons-nuxtdotjs' },
+      { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs' },
       { name: 'React', icon: 'i-simple-icons-react' },
       { name: 'TypeScript', icon: 'i-simple-icons-typescript' },
       { name: 'Tailwind CSS', icon: 'i-simple-icons-tailwindcss' },
-      { name: 'Pinia', icon: 'i-heroicons-circle-stack' }
+      { name: 'Pinia', icon: 'simple-icons:pinia' }
     ]
   },
   {
@@ -20,7 +20,7 @@ const skills = ref([
     color: 'from-emerald-500 to-teal-500',
     bgGradient: 'group-hover:from-emerald-500/10 group-hover:to-teal-500/10',
     technologies: [
-      { name: 'Node.js', icon: 'i-simple-icons-nodejs' },
+      { name: 'Node.js', icon: 'akar-icons:node-fill' },
       { name: 'C#', icon: 'i-simple-icons-csharp' },
       { name: 'NestJS', icon: 'i-simple-icons-nestjs' },
       { name: 'PostgreSQL', icon: 'i-simple-icons-postgresql' },
@@ -50,7 +50,7 @@ const skills = ref([
       { name: 'Figma', icon: 'i-simple-icons-figma' },
       { name: 'Next.js', icon: 'i-simple-icons-nextdotjs' },
       { name: 'Prisma', icon: 'i-simple-icons-prisma' },
-      { name: 'Vitest', icon: 'i-simple-icons-vitest' }
+      { name: 'Vitest', icon: 'devicon-plain:vitest' }
     ]
   }
 ])
@@ -60,7 +60,7 @@ const stats = ref([
   {
     value: '10+',
     label: 'Proyectos completados',
-    icon: 'i-heroicons-folder-check',
+    icon: 'eos-icons:project-outlined',
     color: 'text-emerald-500'
   },
   { value: '15+', label: 'Tecnologías', icon: 'i-heroicons-cpu-chip', color: 'text-violet-500' }
@@ -103,7 +103,7 @@ onMounted(() => {
         :style="{ transitionDelay: `${index * 100}ms` }"
       >
         <div
-          class="absolute inset-0 bg-gradient-to-br opacity-0 transition-opacity duration-500"
+          class="absolute inset-0 bg-linear-to-br opacity-0 transition-opacity duration-500"
           :class="skill.bgGradient"
         ></div>
 
@@ -134,7 +134,7 @@ onMounted(() => {
 
         <div
           class="absolute -right-8 -bottom-8 h-32 w-32 rounded-full transition-transform duration-500 group-hover:scale-150"
-          :class="skill.color.split(' ')[0].replace('from-', 'bg-')"
+          :class="(skill.color.split(' ')[0] || '').replace('from-', 'bg-')"
           style="opacity: 0.08"
         ></div>
       </div>
@@ -148,7 +148,7 @@ onMounted(() => {
         :style="{ transitionDelay: `${index * 100}ms` }"
       >
         <div
-          class="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:from-blue-900/20"
+          class="absolute inset-0 bg-linear-to-br from-blue-50/0 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:from-blue-900/20"
         ></div>
 
         <div class="relative z-10">
