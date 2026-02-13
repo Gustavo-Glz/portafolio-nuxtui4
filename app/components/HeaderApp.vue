@@ -155,7 +155,9 @@ const items = computed<NavigationMenuItem[]>(() => [
   <UHeader>
     <template #title>
       <button class="cursor-pointer" @click="scrollToTop">
-        <span class="font-heading text-xl font-bold text-zinc-900 dark:text-zinc-100">GM</span>
+        <span class="font-heading text-xl font-bold text-zinc-900 dark:text-zinc-100">
+          {{ '{GM}' }}
+        </span>
       </button>
     </template>
 

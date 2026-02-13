@@ -2,7 +2,6 @@
 const contactMethods = ref([
   {
     title: 'Email',
-    description: 'gustavo.gonzalez.montalvo@gmail.com',
     icon: 'i-heroicons-envelope',
     link: 'mailto:gustavo.gonzalez.montalvo@gmail.com',
     color: 'from-blue-500 to-blue-600',
@@ -10,7 +9,6 @@ const contactMethods = ref([
   },
   {
     title: 'GitHub',
-    description: 'github.com/Gustavo-Glz',
     icon: 'i-simple-icons-github',
     link: 'https://github.com/Gustavo-Glz',
     target: '_blank',
@@ -19,7 +17,6 @@ const contactMethods = ref([
   },
   {
     title: 'LinkedIn',
-    description: 'gustavo-gonzalez-montalvo',
     icon: 'i-simple-icons-linkedin',
     link: 'https://www.linkedin.com/in/gustavo-gonz%C3%A1lez-montalvo-7aa92a228/',
     target: '_blank',
@@ -100,9 +97,6 @@ onMounted(() => {
               <h3 class="mb-1 font-semibold text-zinc-800 dark:text-zinc-200">
                 {{ method.title }}
               </h3>
-              <p class="text-sm text-zinc-600 dark:text-zinc-400">
-                {{ method.description }}
-              </p>
             </a>
           </UPageGrid>
 

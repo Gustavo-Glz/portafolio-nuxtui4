@@ -29,7 +29,7 @@ const currentYear = new Date().getFullYear()
         <h4 class="text-primary text-xl font-bold">Gustavo González</h4>
         <p class="text-muted lg:w-120">
           Desarrollador full stack apasionado por crear soluciones tecnológicas que generen un
-          impacto real con +5 años de experiencia.
+          impacto real.
         </p>
         <div class="flex gap-3" style="transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s">
           <UButton
@@ -67,14 +67,14 @@ const currentYear = new Date().getFullYear()
     </template>
     <template #default>
       <div class="flex flex-col gap-2">
-        <p class="text-highlighted font-semibold">Enlaces rapidos</p>
+        <h4 class="text-highlighted font-semibold">Enlaces rapidos</h4>
         <UNavigationMenu :items="items" orientation="vertical" />
       </div>
     </template>
     <template #right>
       <div class="flex flex-col gap-2">
-        <p class="text-highlighted font-semibold">Contacto</p>
-        <div class="flex flex-col gap-2">
+        <h4 class="text-highlighted font-semibold">Contacto</h4>
+        <div class="flex flex-col gap-3">
           <span class="text-muted truncate text-sm">gustavo.gonzalez.montalvo@gmail.com</span>
           <span class="text-muted truncate text-sm">+52 238 103 8825</span>
           <span class="text-muted truncate text-sm">Puebla, México</span>
