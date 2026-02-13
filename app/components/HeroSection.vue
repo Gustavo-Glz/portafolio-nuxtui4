@@ -27,13 +27,13 @@ onMounted(() => {
   <section class="relative overflow-hidden py-32 lg:py-40">
     <div class="absolute inset-0 -z-10">
       <div
-        class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-50/80 via-transparent to-transparent dark:from-blue-950/30"
+        class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-blue-50/80 via-transparent to-transparent dark:from-blue-950/30"
       ></div>
       <div
-        class="absolute top-0 right-0 h-[500px] w-[500px] translate-x-1/3 -translate-y-1/4 rounded-full bg-blue-200/40 blur-3xl dark:bg-blue-800/20"
+        class="absolute top-0 right-0 h-125 w-125 translate-x-1/3 -translate-y-1/4 rounded-full bg-blue-200/40 blur-3xl dark:bg-blue-800/20"
       ></div>
       <div
-        class="absolute bottom-0 left-0 h-[400px] w-[400px] -translate-x-1/3 translate-y-1/4 rounded-full bg-zinc-200/40 blur-3xl dark:bg-zinc-800/30"
+        class="absolute bottom-0 left-0 h-100 w-100 -translate-x-1/3 translate-y-1/4 rounded-full bg-zinc-200/40 blur-3xl dark:bg-zinc-800/30"
       ></div>
       <div class="absolute inset-0 bg-[url('/grid.svg')] opacity-[0.03] dark:opacity-[0.02]"></div>
     </div>
@@ -49,7 +49,7 @@ onMounted(() => {
       >
         <div class="relative">
           <div
-            class="absolute -inset-6 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 opacity-30 blur-3xl"
+            class="absolute -inset-6 rounded-full bg-linear-to-r from-blue-400 to-blue-600 opacity-30 blur-3xl"
           ></div>
           <div
             class="bg-primary relative flex size-28 items-center justify-center rounded-full text-3xl font-bold ring-4 ring-blue-500/20 md:size-32 md:text-4xl"

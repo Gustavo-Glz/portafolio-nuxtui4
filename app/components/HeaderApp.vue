@@ -92,7 +92,7 @@ onMounted(() => {
     }
   }, observerOptions)
 
-  const sections = ['about', 'skills', 'projects', 'experience', 'education']
+  const sections = ['about', 'skills', 'projects', 'experience', 'education', 'contact']
   sections.forEach((sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {

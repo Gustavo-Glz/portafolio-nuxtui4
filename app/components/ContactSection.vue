@@ -130,13 +130,6 @@ onMounted(() => {
           </div>
         </div>
       </div>
-
-      <div class="scroll-reveal mt-12 text-center">
-        <p class="text-sm text-zinc-500 dark:text-zinc-500">
-          © {{ new Date().getFullYear() }} Gustavo González. Construido con
-          <span class="font-medium text-zinc-700 dark:text-zinc-300">Nuxt + Nuxt UI</span>
-        </p>
-      </div>
     </div>
   </UPageSection>
 </template>
