@@ -101,9 +101,9 @@ onMounted(() => {
         style="transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s"
       >
         Creo soluciones digitales innovadoras y escalables usando tecnologías modernas.
-        <span class="font-medium text-zinc-800 dark:text-zinc-200"
-          >Especializado en React, Node.js y arquitectura en la nube</span
-        >
+        <span class="font-medium text-zinc-800 dark:text-zinc-200">
+          Especializado en Vue, React, Node.js y arquitectura escalables
+        </span>
         con +5 años de experiencia.
       </p>
 
